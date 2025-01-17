@@ -45,6 +45,7 @@ dependencies:
   auto_route: ^9.3.0+1
   shared_preferences: ^2.3.5
   connectivity_plus: ^6.1.2
+  rxdart: 
 
 
 dev_dependencies:

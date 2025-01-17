@@ -10,7 +10,7 @@ class ChatSendEvent extends ChatEvent {
 }
 
 class ChatReceiveEvent extends ChatEvent {
-  final ChatModel data;
+  final List<ChatEntity> data;
 
   ChatReceiveEvent(this.data);
 }

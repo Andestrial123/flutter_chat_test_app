@@ -6,6 +6,8 @@ import 'package:connectivity_plus/connectivity_plus.dart';
 import 'package:flutter_chat_test_app/data/models/chat_model.dart';
 import 'package:web_socket_channel/web_socket_channel.dart';
 
+import 'package:rxdart/rxdart.dart';
+
 class ChatWebSocketService {
   final String url;
   final Connectivity _connectivity;

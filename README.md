@@ -36,6 +36,8 @@
 
 ### You will need to install node if you haven't it yet
 
+## MacOS
+
 ```bash
 # Download and install nvm:
 curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.40.1/install.sh | bash
@@ -48,6 +50,19 @@ nvm current # Should print "v22.13.0".
 npm -v # Should print "10.9.2".
 ```
 
+## Windows
+
+```bash
+# Download and install fnm:
+winget install Schniz.fnm
+# Download and install Node.js:
+fnm install 22
+# Verify the Node.js version:
+node -v # Should print "v22.13.0".
+# Verify npm version:
+npm -v # Should print "10.9.2".
+```
+### If you have some problems with install try to manually install node from [site](https://github.com/Andestrial123/Socket-Server-Template)
 ### Than open repo with server side code and get all packages by running command
 
 ```bash
@@ -58,7 +73,10 @@ npm install
 
 ```bash
 npm start 
-    or 
+```
+or
+
+```bash
 node main.js
 ```
 
